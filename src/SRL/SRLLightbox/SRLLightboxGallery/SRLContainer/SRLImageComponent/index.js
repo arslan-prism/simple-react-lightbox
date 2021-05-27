@@ -68,7 +68,7 @@ const ImageLoad = React.memo(
       />
     ) : (
       <TransformWrapper
-        options={{ maxScale: 6, minScale: 0.5 }}
+        options={{ maxScale: 2, minScale: 0.5 }}
         wheel={{ step: 50 }}
         pan={{ velocity: true, velocityEqualToMove: true }}
       >
